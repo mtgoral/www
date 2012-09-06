@@ -4,12 +4,12 @@ a:hover{color:#333;}
 #header{width:200px;border-right:1px solid #666;float:left;position:fixed;}
 #content{float:left;height:100%;margin:0 0 0 250px;}
 h1{font-family:helvetica,arial,sans-serif;font-size:40px;letter-spacing:-3px;color:#666;margin:20px 0 0 15px;}
-h2{font-size:130px;text-align:left;margin:0;line-height:150px;display:inline-block;color:#333;}
+h2{font-size:130px;text-align:left;margin:0;line-height:150px;display:inline-block;color:#333;letter-spacing:-5px;}
 .headerlink{font-family:helvetica,arial,sans-serif;font-size:40px;letter-spacing:-3px;color:#333;margin:20px 0 0 15px;text-decoration:none;float:left;}
 .headerlink:hover{color:#666;}
-.big{font-size:200px;text-align:left;margin:0;line-height:200px;}
-.medium{font-size:80px;text-align:left;margin:0;line-height:80px;}
-.small{font-size:40px;text-align:left;margin:0;line-height:40px;}
-.tiny{font-size:30px;text-align:left;margin:0;line-height:60px;color:#333;}
+.big{font-size:200px;text-align:left;margin:0;line-height:200px;letter-spacing:-10px;}
+.medium{font-size:60px;text-align:left;margin:0;line-height:60px;letter-spacing:-3px;}
+.small{font-size:30px;text-align:left;margin:0;line-height:30px;letter-spacing:-1px;}
+.tiny{font-size:20px;text-align:left;margin:0;line-height:30px;color:#333;margin:5px 0 10px;"}
 .examplesite{padding:50px 0;border-bottom:1px solid #666; width:900px;}
 .projectimg{margin:30px 0;border:1px solid #666;border-radius:10px;}
