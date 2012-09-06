@@ -14,5 +14,7 @@
   #next:hover,#prev:hover{cursor:pointer;}
   #next{float:right;}
   #prev{float:left;}
-  #twitter{position:fixed;right:100px;bottom:20px;}
-  #imdb{position:fixed;right:20px;bottom:20px;}
+  #twitter{position:fixed;right:80px;bottom:15px;}
+  #imdb{position:fixed;right:20px;bottom:15px;}
+  #email{position:fixed;right:140px;bottom:15px;}
+  iframe{margin-top:50px;}
