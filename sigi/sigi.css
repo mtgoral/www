@@ -1,0 +1,17 @@
+ body{font-family:helvetica,arial,sans-serif;}
+ a {text-decoration:none;color:#000;font-weight:700;}
+  #namediv{position:absolute;bottom:0;left:0;background-color:#55a;border-top-right-radius:100%;border-top:5px solid #114;border-right:5px solid #114;color:#112;width:200px;height:200px;}
+  #namediv:hover{background-color:#77c;}
+  #firstname{margin:85px 0 0 5px;font-size:50px;line-height:50px;letter-spacing:-3px;}
+  #lastname{margin:0 0 0 20px;font-size:40px;line-height:20px;letter-spacing:-2px;}
+  .navcircle{position:absolute;width:100px;height:100px;border-radius:100%;text-align:center;line-height:100px;font-size:20px;}
+  #nav_contact{background-color:#b44;border:5px solid #411;left:183px;bottom:5px;color:#211;}
+  #nav_resume{background-color:#1a6;border:5px solid #152;left:144px;bottom:80px;color:#121;}
+  #nav_work{background-color:#dd2;border:5px solid #771;left:83px;bottom:144px;color:#441;}
+  #nav_about{background-color:#939;border:5px solid #515;left:1px;bottom:175px;color:#212;}
+  #header{position:fixed;left:0px;bottom:0px;}
+  #next:hover,#prev:hover{cursor:pointer;}
+  #next{float:right;}
+  #prev{float:left;}
+  #twitter{position:fixed;right:100px;bottom:20px;}
+  #imdb{position:fixed;right:20px;bottom:20px;}
