@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tempest</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			render();
+		});
+
+		$(window).resize(function() {
+			resize();
+		});
+
+		function home() {
+			$('.container').fadeOut(1000);
+			setTimeout(function() { window.location.href = 'hi.html'; }, 1000);
+		}
+
+		function whois() {
+			$('.container').fadeOut(1000);
+			setTimeout(function() { window.location.href = 'whois.html'; }, 1000);
+		}
+
+		function resize() {
+			$('#bg').height($(window).height());
+			$('#bg').css('left', ($(window).width()-($(window).height()*(734/600)))/2 + 'px' );
+		}
+
+		function render() {
+			$('#bg').fadeIn(2000);
+			$('a').fadeIn(3000);
+		}
+	</script>
+	<style type="text/css">
+		body{margin:0;padding:0;background-color:#fff;overflow:hidden;}
+		#bg{position:absolute;top:0;z-index:0;display:none;}
+		a {display:none;position:absolute;bottom:0;left:10%;color:white;z-index:1;text-decoration:none;}
+	</style>
+</head>
+<body>
+	<div class="container">
+<img id="bg" src="http://upload.wikimedia.org/wikipedia/commons/e/ec/Happy_smiley_face.png">
+<a href="#" onclick="javascript:home();return false;" style="left:10%">Tempest</a>
+<a href="#" onclick="javascript:whois();return false;" style="left:20%">who is tempest</h1>
+</div>
+</body>
+</html>
