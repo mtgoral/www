@@ -8,7 +8,7 @@
 <style type="text/css">
 <!--
 html,body{height:100%}
-body {margin:0; padding:0; background:#333 url(sw_page_bg.png); overflow:hidden; font-family:Helvetica, Arial, sans-serif; font-size:16px;}
+body {margin:0; padding:0; background:#000; overflow:hidden; font-family:Helvetica, Arial, sans-serif; font-size:16px;}
 /* custom fonts */
 @font-face {
 	font-family: 'eurof55-webfont';
@@ -30,11 +30,11 @@ a:link,a:visited,a:hover{color:#ddd;}
 a:hover{color:#fff; text-decoration:none;}
 #bg{position:fixed; left:585px; top:0; width:100%; height:100%;}
 #bgimg{display:none; cursor:pointer; -ms-interpolation-mode: bicubic;} /* special IE fix for resized images */
-#preloader{position:absolute; z-index:2; width:140px; padding:20px; top:20px; left:50px; background:#000; color:#666; font-family:graublauweb-webfont, Helvetica, Arial, sans-serif; font-size:16px; -moz-border-radius:5px; -khtml-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;}
+#preloader{position:absolute; z-index:2; width:140px; padding:20px; top:20px; right:20px; background:#000; color:#666; font-family:graublauweb-webfont, Helvetica, Arial, sans-serif; font-size:16px; -moz-border-radius:5px; -khtml-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;}
 #preloader img{margin-right:20px;}
 #toolbar{display:inline-block; padding:4px 15px; margin:20px 15px; background:#262626 url(sw_btn_bg.png) repeat-x; -moz-border-radius:8px; -khtml-border-radius:8px; -webkit-border-radius:8px; border-radius:8px; font-family:graublauweb-webfont, Helvetica, Arial, sans-serif; font-size:12px; color:#fff; cursor:pointer;}
 #outer_container{position:relative; margin:0; width:700px; padding:0 100px 0 0; z-index:2; background:url(empty.gif);} /* fucking IE needs a background value to understand hover area */
-#customScrollBox{position:relative; overflow:hidden; background:url(sw_l_bg.png) repeat-y;}
+#customScrollBox{position:relative; overflow:hidden;}
 #customScrollBox .container{position:relative; width:585px; top:0; float:left;}
 #customScrollBox .content{clear:both;}
 #customScrollBox .content h1{padding:5px; margin:10px; color:#fff; font-family:eurof55-webfont, Helvetica, Arial, sans-serif; font-size:48px;}
@@ -63,14 +63,12 @@ a:hover{color:#fff; text-decoration:none;}
 </head>
 
 <body>
-<header class="header" style="position:absolute;left:0;bottom:0;width:100%;padding:0 10%;z-index:9999;"></header>
+
 <div id="outer_container">
 <div id="customScrollBox">
 	<div class="container">
     	<div class="content">
-        	<h1>SIDE<span class="lightgrey">WAYS</span> <br /><span class="light"><span class="grey"><span class="s36">JQUERY FULLSCREEN IMAGE GALLERY</span></span></span></h1>
-            <p>A simple, yet elegant fullscreen image gallery created with the jQuery framework and some simple CSS. <a href="http://manos.malihu.gr/sideways-jquery-fullscreen-image-gallery" target="_blank">Full post and download files.</a></p>
-            
+        	<header class="header" style="width:100%;padding:20px;z-index:9999;font-family:serif;text-decoration:none;"></header>           
             <a href="img/01.jpg" class="thumb_link"><span class="selected"></span><img src="img/01t.jpg" class="thumb" /></a>
             <a href="img/02.jpg" class="thumb_link"><span class="selected"></span><img src="img/02t.jpg" class="thumb" /></a>
             <a href="img/03.jpg" class="thumb_link"><span class="selected"></span><img src="img/03t.jpg" class="thumb" /></a>
