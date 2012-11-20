@@ -1,0 +1,1 @@
+{"ts":1348717844296,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"body{margin:0;padding:0;background-color:#000;overflow:hidden;}\r\n#bg{position:absolute;top:0;z-index:0;display:none;}\r\na {display:none;position:absolute;bottom:0;left:10%;color:white;z-index:1;text-decoration:none;}"]],"start1":0,"start2":0,"length1":0,"length2":215}]],"length":215}
